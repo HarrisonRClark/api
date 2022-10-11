@@ -1,10 +1,7 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace TodoAPI.Models
 {
-    public class TodoItem
+    public class TodoItemDTO
     {
-        [Key]
         public long ID { get; set; }
 
         public string? Name { get; set; }
